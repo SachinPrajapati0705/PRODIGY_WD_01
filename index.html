@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitLife Gym</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Add Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <h1>FitLife Gym</h1>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#classes">Classes</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="hero">
+            <div class="container">
+                <h2>Your Journey to Fitness Starts Here</h2>
+                <p>Join us to achieve your fitness goals!</p>
+                <a href="#contact" class="btn">Get Started</a>
+            </div>
+        </div>
+    </header>
+
+
+    <section id="classes">
+        <div class="container">
+            <h2>Classes</h2>
+            <p>Choose from a variety of classes designed to suit your fitness needs:</p>
+            <ul>
+                <li>Yoga</li>
+                <li>HIIT (High-Intensity Interval Training)</li>
+                <li>Spin</li>
+            </ul>
+        </div>
+    </section>
+
+
+
+    <section id="gallery">
+        <div class="container">
+            <h2>Image Gallery</h2>
+            <div class="gallery">
+                <!-- Add your gallery images here -->
+                <img src="https://source.unsplash.com/800x602/?fitness" alt="Gallery Image 1">
+                <img src="https://source.unsplash.com/800x602/?Gym" alt="Gallery Image 2">
+                <img src="https://source.unsplash.com/800x602/?Yoga" alt="Gallery Image 3">
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <div class="container">
+            <h2>Testimonials</h2>
+            <div class="testimonial">
+                <p>"I've never felt better since joining FitLife Gym. The trainers are amazing, and the atmosphere is so
+                    motivating!"</p>
+                <p class="author">- John Doe</p>
+            </div>
+            <!-- Add more testimonials here -->
+        </div>
+    </section>
+
+    <section id="membership">
+        <div class="container">
+            <h2>Membership</h2>
+            <p>Discover our membership options tailored to your needs. Join us today and start your fitness journey!</p>
+            <a href="#contact" class="btn">Join Now</a>
+        </div>
+    </section>
+
+    <section id="schedule">
+        <div class="container">
+            <h2>Class Schedule</h2>
+            <table>
+                <tr>
+                    <th>Class</th>
+                    <th>Time</th>
+                    <th>Instructor</th>
+                </tr>
+                <tr>
+                    <td>Yoga</td>
+                    <td>Mon, Wed, Fri 8:00 AM</td>
+                    <td>Jane Doe</td>
+                </tr>
+                <!-- Add more classes here -->
+            </table>
+        </div>
+    </section>
+
+    <section id="map">
+        <div class="container">
+            <h2>Visit Us</h2>
+            <div class="map">
+                <!-- Add your embedded map here -->
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.077043132353!2d-74.0059412850713!3d40.712783752630246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2588f046ee661%3A0xa0b3281cee49a100!2sFitLife%20Gym!5e0!3m2!1sen!2sus!4v1646990459734!5m2!1sen!2sus"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>FitLife Gym is dedicated to helping individuals achieve their fitness goals in a supportive and
+                motivating environment.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Get in touch with us for inquiries or to schedule a visit:</p>
+            <form id="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Name">
+                    <span class="icon"></span> <!-- Validation Icon -->
+                    <span class="error-message"></span> <!-- Error Message -->
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Email">
+                    <span class="icon"></span> <!-- Validation Icon -->
+                    <span class="error-message"></span> <!-- Error Message -->
+                </div>
+                <div class="form-group">
+                    <textarea id="message" placeholder="Message"></textarea>
+                    <span class="counter"></span> <!-- Character Counter -->
+                    <span class="error-message"></span> <!-- Error Message -->
+                </div>
+                <button type="submit" class="btn">Submit</button> <!-- Form Submission Animation -->
+            </form>
+        </div>
+    </section>
+
+    <section id="social">
+        <div class="container">
+            <h2>Connect With Us</h2>
+            <ul class="social-links">
+                <li><a href="#" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="newsletter">
+        <div class="container">
+            <h2>Subscribe to Our Newsletter</h2>
+            <form>
+                <input type="email" placeholder="Enter your email">
+                <button type="submit" class="btn">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 FitLife Gym. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
